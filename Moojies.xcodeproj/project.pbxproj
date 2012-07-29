@@ -126,7 +126,7 @@
 				09ABC07813A1D52D009C3FCF /* Supporting Files */,
 			);
 			name = Moojies;
-			path = ParseStarterProject;
+			path = moojies;
 			sourceTree = "<group>";
 		};
 		09ABC07813A1D52D009C3FCF /* Supporting Files */ = {
@@ -286,9 +286,9 @@
 				);
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParseStarterProject/Moojies-Prefix.pch";
+				GCC_PREFIX_HEADER = "moojies/Moojies-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ParseStarterProject/Moojies-Info.plist";
+				INFOPLIST_FILE = "moojies/Moojies-Info.plist";
 				PRODUCT_NAME = Moojies;
 				WRAPPER_EXTENSION = app;
 			};
@@ -304,9 +304,9 @@
 					"\"$(SRCROOT)\"",
 				);
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ParseStarterProject/Moojies-Prefix.pch";
+				GCC_PREFIX_HEADER = "moojies/Moojies-Prefix.pch";
 				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
-				INFOPLIST_FILE = "ParseStarterProject/Moojies-Info.plist";
+				INFOPLIST_FILE = "moojies/Moojies-Info.plist";
 				PRODUCT_NAME = Moojies;
 				VALIDATE_PRODUCT = YES;
 				WRAPPER_EXTENSION = app;
