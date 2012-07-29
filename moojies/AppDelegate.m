@@ -12,15 +12,14 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
-    // ****************************************************************************
-    // Uncomment and fill in with your Parse credentials:
-    [Parse setApplicationId:@"4pK0UwArBE0w8vvINTqBnEg3KrjPZAXvy3WVliG6"
-				  clientKey:@"FfhDWTcNZ12SdaZydqmYYjp5qjtqntqZAakhFSkc"];
+    //Set up credentials for the application.
     //
-    // If you are using Facebook, uncomment and fill in with your Facebook App Id:
-    // [PFFacebookUtils initializeWithApplicationId:@"your_facebook_app_id"];
-    // ****************************************************************************
     
+    [Parse setApplicationId:@"4pK0UwArBE0w8vvINTqBnEg3KrjPZAXvy3WVliG6" clientKey:@"FfhDWTcNZ12SdaZydqmYYjp5qjtqntqZAakhFSkc"];
+    [PFFacebookUtils initializeWithApplicationId:@"249502305152527"];
+    [PFTwitterUtils initializeWithConsumerKey:@"iS3L5PTB7RS0HBVGtY4g" consumerSecret:@"mhxxzcHfyPRF3WomMs6lOZdCgpcx5lPmIYZAOJQ"];
+
+
     [PFUser enableAutomaticUser];
     PFACL *defaultACL = [PFACL ACL];
     // Optionally enable public read access by default.
